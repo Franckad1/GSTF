@@ -3,8 +3,6 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  /* Task List */
-
   margin-top: 20px;
 
   & .task-item {
@@ -28,7 +26,6 @@ const StyledDiv = styled.div`
     font-weight: normal;
   }
 
-  /* Task Actions */
   & .task-actions {
     display: flex;
     gap: 10px;

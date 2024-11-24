@@ -8,8 +8,8 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #26547c; /* Bleu */
-  color: #ffd166; /* Jaune */
+  background-color: #26547c;
+  color: #ffd166;
   padding: 15px 20px;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -60,8 +60,8 @@ const StyledDiv2 = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #26547c; /* Bleu */
-  background-color: #ffd166; /* Jaune */
+  color: #26547c;
+  background-color: #ffd166;
   padding: 15px 20px;
   border-radius: 8px;
   margin-bottom: 15px;

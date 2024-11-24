@@ -40,12 +40,10 @@ const StyleDiv = styled.div`
     cursor: pointer;
   }
 
-  /* Checklist Form */
   & .checklist-form {
     padding: 10px;
   }
 
-  /* Form Group */
   & .form-group {
     margin: 15px 0;
   }
@@ -71,7 +69,6 @@ const StyleDiv = styled.div`
     resize: none;
   }
 
-  /* Task List */
   & .task-list {
     margin-top: 20px;
   }
@@ -97,7 +94,6 @@ const StyleDiv = styled.div`
     font-weight: normal;
   }
 
-  /* Task Actions */
   & .task-actions {
     display: flex;
     gap: 10px;

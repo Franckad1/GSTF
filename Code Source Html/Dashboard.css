@@ -1,21 +1,16 @@
-/* styles.css */
-
-/* Style pour le premier span (TASK DONE/ALL TASK) */
 .checklist-state {
   font-size: 14px;
   margin-right: 10px;
-  color: #ffd166; /* Texte jaune */
+  color: #ffd166;
 }
 
-/* Style spécifique pour le deuxième span (CHECKLIST STATE) */
 .checklist-status {
   font-size: 14px;
   margin-right: 10px;
-  color: #ffd166; /* Texte jaune */
-  font-weight: bold; /* Ajout de gras pour différencier visuellement */
+  color: #ffd166;
+  font-weight: bold;
 }
 
-/* Styles communs pour le reste */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -98,35 +93,33 @@ body {
   color: #ffd166;
   background-color: #26547c;
 }
-/* Styles pour les cartes */
+
 .checklist-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #26547c; /* Bleu */
-  color: #ffd166; /* Jaune */
+  background-color: #26547c;
+  color: #ffd166;
   padding: 15px 20px;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
 .checklist-card.alternate {
-  background-color: #ffd166; /* Jaune */
-  color: #26547c; /* Bleu */
+  background-color: #ffd166;
+  color: #26547c;
 }
 
-/* Textes dans les cartes standards (bleu -> texte jaune) */
 .checklist-card .checklist-title,
 .checklist-card .checklist-description,
 .checklist-card .checklist-state,
 .checklist-card .checklist-status {
-  color: #ffd166; /* Texte jaune */
+  color: #ffd166;
 }
 
-/* Textes dans les cartes alternées (jaune -> texte bleu) */
 .checklist-card.alternate .checklist-title,
 .checklist-card.alternate .checklist-description,
 .checklist-card.alternate .checklist-state,
 .checklist-card.alternate .checklist-status {
-  color: #26547c; /* Texte bleu */
+  color: #26547c;
 }

@@ -2,8 +2,6 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  /* Task List Section */
-
   padding: 20px;
   background-color: #ffd166;
 
@@ -23,7 +21,6 @@ const StyledDiv = styled.div`
     font-weight: bold;
   }
 
-  /* Bouton rond */
   & button {
     background-color: transparent;
     border: 2px;
@@ -48,7 +45,6 @@ const StyledDiv = styled.div`
     transform: scale(0.9);
   }
 
-  /* Image ronde à l'intérieur du bouton */
   & .status-icon {
     width: 28px;
     height: 28px;

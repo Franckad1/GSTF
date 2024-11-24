@@ -33,7 +33,6 @@ const StyledHead = styled.header`
 `;
 
 const StyledDiv = styled.div`
-  /* styles.css */
   padding: 20px;
   margin: 0;
   font-family: Arial, sans-serif;
