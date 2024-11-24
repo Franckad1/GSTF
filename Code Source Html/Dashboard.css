@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Style pour le premier span (TASK DONE/ALL TASK) */
+.checklist-state {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #ffd166; /* Texte jaune */
+}
+
+/* Style spécifique pour le deuxième span (CHECKLIST STATE) */
+.checklist-status {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #ffd166; /* Texte jaune */
+  font-weight: bold; /* Ajout de gras pour différencier visuellement */
+}
+
+/* Styles communs pour le reste */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background-color: #26547c;
+  color: #ffd166;
+  padding: 20px;
+  text-align: right;
+}
+
+.new-btn {
+  background-color: #ffd166;
+  color: #26547c;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checklist-container {
+  padding: 20px;
+}
+
+.checklist-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26547c;
+  color: #ffd166;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.checklist-card.alternate {
+  background-color: #ffd166;
+  color: #26547c;
+}
+
+.checklist-content {
+  flex: 2;
+}
+
+.checklist-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checklist-description {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.checklist-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #26547c;
+  background-color: #ffd166;
+}
+
+.checklist-card.alternate .edit-btn,
+.checklist-card.alternate .delete-btn {
+  color: #ffd166;
+  background-color: #26547c;
+}
+/* Styles pour les cartes */
+.checklist-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26547c; /* Bleu */
+  color: #ffd166; /* Jaune */
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.checklist-card.alternate {
+  background-color: #ffd166; /* Jaune */
+  color: #26547c; /* Bleu */
+}
+
+/* Textes dans les cartes standards (bleu -> texte jaune) */
+.checklist-card .checklist-title,
+.checklist-card .checklist-description,
+.checklist-card .checklist-state,
+.checklist-card .checklist-status {
+  color: #ffd166; /* Texte jaune */
+}
+
+/* Textes dans les cartes alternées (jaune -> texte bleu) */
+.checklist-card.alternate .checklist-title,
+.checklist-card.alternate .checklist-description,
+.checklist-card.alternate .checklist-state,
+.checklist-card.alternate .checklist-status {
+  color: #26547c; /* Texte bleu */
+}
